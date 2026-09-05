@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ai-exam-backend
+    env: java
+    buildCommand: cd backend && ./mvnw clean install
+    startCommand: java -jar backend/target/ai-exam-backend-1.0.0.jar
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+        
