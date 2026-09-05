@@ -1,0 +1,12 @@
+com\aiexam\dto\TestRequest.class
+com\aiexam\config\CorsConfig.class
+com\aiexam\dto\Question.class
+com\aiexam\service\PromptBuilder.class
+com\aiexam\config\RateLimitConfig.class
+com\aiexam\controller\TestController.class
+com\aiexam\exception\GlobalExceptionHandler.class
+com\aiexam\filter\RateLimitFilter.class
+com\aiexam\ExamApplication.class
+com\aiexam\service\GeminiService$GeminiCallException.class
+com\aiexam\service\GeminiService.class
+com\aiexam\dto\TestResponse.class
